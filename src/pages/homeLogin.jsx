@@ -1,4 +1,4 @@
-// import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 const Login = () => {
   return (
     <div className="h-screen bg-bggray">
@@ -52,9 +52,11 @@ const Login = () => {
               <p className="text-white text-lg py-5">Don’t have account?</p>
             </div>
             <div>
-              <button className="border border-white rounded-2xl text-white px-6 py-2 hover:bg-white hover:text-black">
-                Register
-              </button>
+              <Link to="/register">
+                <button className="border border-white rounded-2xl text-white px-6 py-2 hover:bg-white hover:text-black">
+                  Register
+                </button>
+              </Link>
             </div>
           </div>
         </div>
