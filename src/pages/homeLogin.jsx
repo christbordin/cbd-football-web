@@ -9,7 +9,7 @@ const Login = () => {
             <h1 className="text-3xl mt-8 ml-6">Login</h1>
             <form action="#">
               <div>
-                <p className=" mt-8 ml-3">E-MAIL</p>
+                <p className="mt-8 ml-3">E-mail</p>
                 <input
                   type="text"
                   placeholder="e-mail"
@@ -17,15 +17,18 @@ const Login = () => {
                 />
               </div>
               <div>
-                <p className="mt-8 ml-3">PASSWORD</p>
+                <p className="mt-8 ml-3">Password</p>
                 <input
-                  type="text"
+                  type="password"
                   placeholder="password"
                   className="rounded-2xl bg-gray-100 mt-1 ml-6 px-3 py-2 w-5/6 drop-shadow-xl"
                 />
               </div>
               <div>
-                <button className="text-white bg-gradient-to-br from-sunset to-stawmilk opacity-100 rounded-2xl shadow-xl mt-10 ml-6 px-3 py-2 w-5/6 hover:animate-one-pulse">
+                <button
+                  type="submit"
+                  className="text-white bg-gradient-to-br from-sunset to-stawmilk opacity-100 rounded-2xl shadow-xl mt-10 ml-6 px-3 py-2 w-5/6 hover:animate-one-pulse"
+                >
                   Login
                 </button>
               </div>
@@ -38,8 +41,8 @@ const Login = () => {
                 ]:"
                 />
                 <span className="px-1 text-stawmilk">Remember Me</span>
-                <span className=" ml-24">
-                  <a href="#" className="text-forgotgray">
+                <span className="ml-24">
+                  <a href="#" className="text-oldgry">
                     Forgot Password
                   </a>
                 </span>

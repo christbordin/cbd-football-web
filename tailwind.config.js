@@ -7,7 +7,7 @@ module.exports = {
         sunset: '#F75959',
         stawmilk: '#F35587',
         bggray: '#F8F9FD',
-        forgotgray: '#9ca4b0'
+        oldgry: '#9ca4b0'
       },
       keyframes: {
         onePulse: {
